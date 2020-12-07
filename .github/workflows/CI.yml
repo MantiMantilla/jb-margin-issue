@@ -7,7 +7,7 @@ name: CI
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
     - 'Book/**'
     - '.github/workflows/CI.yml'
