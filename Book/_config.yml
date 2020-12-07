@@ -1,0 +1,24 @@
+# Book settings
+title: Repo to showcase margin issue.
+author: Equipo Principios de Optimización
+# logo: _static/logo-uniandes.png
+
+repository:
+  url: https://github.com/mantimantilla/jb-margin-issue
+  path_to_book: Book
+  branch: main
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+html:
+  home_page_in_navbar: false
+  use_repository_button: true
+  use_issues_button: true
+
+parse:
+  myst_extended_syntax: true
+
+execute:
+  execute_notebooks: 'off'
